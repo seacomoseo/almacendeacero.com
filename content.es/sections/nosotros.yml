@@ -1,0 +1,19 @@
+id: nosotros
+title: Nosotros
+subtitle: Almacen de Acero Inoxidable, S.L.
+color: white
+rows:
+- type: columns
+  design:
+    num: 2
+    align_y: center
+  items:
+  - image: logo-alt.png
+  - description: |
+      Almacen de Acero Inoxidable tiene la misión de satisfacer las necesidades y deseos de sus clientes de manera rápida, segura y económica.
+
+      Gracias a su competitividad ha hecho posible en estos años tener un crecimiento continuo en el mercado, donde además del mercado nacional abastece sus productos en África, Latino América y Europa, en un total a día de hoy de 12 países.
+
+      Nuestros objetivos es seguir distribuyendo nuestros productos a cualquier parte del mundo sin que nada sea un escollo para la realización de la venta.
+    more:
+      align: left

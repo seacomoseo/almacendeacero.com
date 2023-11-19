@@ -1,0 +1,49 @@
+id: servicios
+title: Servicios
+subtitle: Personalizados
+color: light
+more:
+  flip_x: true
+  flip_y: true
+  divider: arrow-side
+rows:
+- type: columns
+  design:
+    num: 4
+    underline: true
+    color: white
+    ratio: 3x2
+    inset: true
+  items:
+  - title: Corte Láser
+    image: corte-laser.jpg
+    description: |
+      El corte a láser permite ofrecer un servicio de elevada calidad y definición debido a la alta precisión que contiene esta tecnología, en acero al carbono, aluminio y acero inoxidable.
+  - title: Corte Plasma
+    image: corte-plasma.jpg
+    description: |
+      El plasma de alta definición gracias a su elevada concentración de calor permite poder cortar materiales de amplio grosor sin deformidades con una calidad muy elevada.
+  - title: Corte y Plegado
+    image: corte-plegado.jpg
+    description: |
+      Servicio de corte y plegado de todo tipo de piezas y materiales, acero al carbono, aluminio y acero inoxidable. Máximo largo 6 metros.
+  - title: Punzonadora
+    image: punzonadora.jpg
+    description: |
+      Servicio de fabricación de chapa con relieve y perforada, cuadrada, ovalada y redonda a medida, en todos los materiales y acabados.
+  - title: Pulido y Satinado
+    image: pulido-satinado.jpg
+    description: |
+      Gracias a nuestra amplia gama de maquinas automáticas conseguimos el mejor acabado en brillo y satinado de tubos, pletinas, barras y piezas.
+  - title: Pulido de Chapa
+    image: pulido-chapa.jpg
+    description: |
+      Contamos con una máquina automática de pulido o satinado de superficie plana.
+  - title: Mallas Electrosoldadas
+    image: mallas-electrosoldadas.jpg
+    description: |
+      Fabricación de mallas electro-soldadas de forma cuadrangular o diagonal, en acero al carbono y acero inoxidable.
+  - title: Transporte
+    image: transporte.jpg
+    description: |
+      Gracias a nuestros acuerdos con agencias y transportistas hacen que podamos suministrar cualquier bulto en dondequiera del mundo sin que al cliente le ocasiones algún perjuicio.

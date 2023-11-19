@@ -1,0 +1,73 @@
+// Header
+
+@keyframes stroke-1 {
+  0% {
+    stroke-dashoffset: 66em;
+  }
+}
+@keyframes fill {
+  0% {
+    fill: transparent;
+    stroke: $dark;
+  }
+}
+#body-inicio #header {
+  .image__inner > path {
+    stroke-dasharray: 66em;
+    stroke-width: 2;
+    stroke: transparent;
+    animation: stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both,
+              fill .7s cubic-bezier(0.47, 0, 0.745, 0.715) .7s both;
+  }
+  .description {
+    .buttons {
+      animation: show-up .5s 1.25s both;
+    }
+  }
+}
+
+
+// Sections
+
+.underline:after {
+  background-color: $link-light;
+}
+#garantias {
+  .columns {
+    svg {
+      fill: $link-light;
+    }
+    .description {
+      color: var(--subtitle);
+    }
+  }
+}
+.contact__form-button {
+  svg {
+    display: none;
+  }
+}
+.logo__link {
+  background-image: none;
+}
+table {
+  margin-left: auto;
+  white-space: unset;
+}
+.callnow {
+  transform: scale(1.33);
+  transform-origin: left bottom;
+}
+/*! purgecss start ignore */
+.catalogue-category {
+  .article__header figure {
+    display: none;
+  }
+}
+/*! purgecss end ignore */
+
+.type-categories {
+  .article__figure {
+    display: none;
+  }
+}

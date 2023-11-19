@@ -1,0 +1,29 @@
+id: header
+title: Almacen de Acero Inoxidable, S.L.
+subtitle: Distribución Nacional e Internacional de Acero Inoxidable
+color: link-dark
+image: icon-alt-2.svg
+bg: fondo.jpg
+size: sm
+more:
+  padding_bottom: 2
+  image_min: 12
+  image_max: 12
+  opacity: 30
+  parallax: true
+  flip_x: true
+  flip_y: false
+  divider: arrow-side-fill
+rows:
+- type: contact
+  data:
+  - type: custom
+    link: /catalogo/
+    label: Catálogo
+    icon: rectangle-vertical-history
+    ofuscate: true
+  - type: phone
+    label: 689 721 929
+  - type: mail
+    label: info@almacendeacero.com
+    full: true

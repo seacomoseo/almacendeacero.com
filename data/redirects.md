@@ -1,0 +1,10 @@
+/app/product/* /#productos
+/app/subcategorie/* /#productos
+/app/about /#nosotros
+/app/service /#servicios
+/app/legal /legal/
+/app/tos /legal/
+/app/cookies /legal/#politica-de-cookies
+/app/contact /#contacto
+/app/reservation/* /#contacto
+/app/* /
