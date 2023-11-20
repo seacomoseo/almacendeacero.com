@@ -4,7 +4,7 @@ title_seo: ''
 slug: categorias
 description: Listado de categorías
 image: ''
-draft: true
+draft: false
 noindex: true
 translationKey: categories
 ---

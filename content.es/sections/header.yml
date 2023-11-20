@@ -12,8 +12,8 @@ more:
   opacity: 30
   parallax: true
   flip_x: true
-  flip_y: false
-  divider: arrow-side-fill
+  flip_y: true
+  divider: arrow-side
 rows:
 - type: contact
   data:

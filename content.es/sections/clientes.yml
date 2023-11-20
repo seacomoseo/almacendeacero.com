@@ -5,19 +5,19 @@ color: link
 button: hide
 more:
   flip_x: true
-  flip_y: false
-  divider: arrow-side-fill
+  flip_y: true
+  divider: arrow-side
 rows:
-- type: gallery
+- type: columns
   design:
-    max: 10
     num: 5
-    gap: true
-    cover: false
+    num_xs: true
+    gap: 2
     grayscale: true
+    ratio: 2x1
   items:
-  - logo-elpozo.svg
-  - logo-talasur.svg
-  - logo-cristaleriamoreno.svg
-  - logo-courcieres.svg
-  - logo-franchy.svg
+  - image: logo-elpozo.svg
+  - image: logo-talasur.svg
+  - image: logo-cristaleriamoreno.svg
+  - image: logo-courcieres.svg
+  - image: logo-franchy.svg
