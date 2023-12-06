@@ -6,6 +6,7 @@ params:
   git_url: https://gitlab.com/almacendeacero/almacendeacero.com
   netlify_name: almacendeacero
   netlify_id: 639ba5f2-f328-43c7-bd55-7a4160e58560
+  hook: NjMwMzljZGEzZGY0MDYxNDllYWM3NzNl
   drive_link: https://drive.google.com/file/d/1zYnlpc8nQa4inEzKDM37voH_QQ5D0b1S
   drive_mails: almacendeacero@gmail.com
 defaultContentLanguage: es
