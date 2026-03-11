@@ -1,0 +1,46 @@
+name: Base ➡️ Cabecera
+node: header
+boxes:
+- align: left
+- if: breadcrumbs
+  node: nav
+  md: '{{< breadcrumbs >}}'
+- if: icon
+  get:
+  - to: title
+  - from: h1
+    to: title
+  - to: icon
+  icon_pos: side
+- if: not icon
+  get:
+  - to: title
+  - from: h1
+    to: title
+- tags:
+  - type: type
+  - type: date
+  - type: address
+  - type: param
+    param: job
+    icon: business_center
+  - type: param
+    param: autor
+    icon: people
+- if: cancelled
+  md: |
+    =={{< i18n cancelled >}}==
+    {.cancelled}
+- if: image
+  node: div
+  get:
+  - from: img
+    to: img
+  - from: title
+    to: alt
+  - from: seo.title
+    to: alt
+  - from: img
+    to: url
+  - to: ratio
+  btn: hide

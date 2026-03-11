@@ -1,3 +1,3 @@
 # almacendeacero.com
 
-[![almacendeacero.com](/assets/media/logo.png)](https://almacendeacero.com/)
+[![almacendeacero.com](/uploads/logo.png)](https://almacendeacero.com/)

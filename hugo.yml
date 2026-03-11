@@ -1,35 +1,11 @@
 baseURL: https://almacendeacero.com
-Paginate: 24
-buildFuture: false
+buildFuture: n
 theme: [sansoul]
 params:
-  git_url: https://gitlab.com/almacendeacero/almacendeacero.com
-  netlify_name: almacendeacero
+  domain: almacendeacero.com
+  name: almacendeacero
   netlify_id: 639ba5f2-f328-43c7-bd55-7a4160e58560
-  hook: NjMwMzljZGEzZGY0MDYxNDllYWM3NzNl
-  drive_link: https://drive.google.com/file/d/1zYnlpc8nQa4inEzKDM37voH_QQ5D0b1S
+  netlify_hook: NjMwMzljZGEzZGY0MDYxNDllYWM3NzNl
+  cloudflare_id: 
+  drive_url: https://drive.google.com/file/d/1zYnlpc8nQa4inEzKDM37voH_QQ5D0b1S
   drive_mails: almacendeacero@gmail.com
-defaultContentLanguage: es
-disableLanguages: [en]
-languages:
-  es:
-    paginatePath: pagina
-    permalinks:
-      page:
-        pages: :slug
-        blog: :slug
-        events: evento/:year/:month/:day/:slug
-        products: producto/:slug
-        categories: categoria/:slug
-        tags: etiqueta/:slug
-        authors: autor/:slug
-        custom: :slug
-      section:
-        pages: paginas
-        blog: blog
-        events: eventos
-        products: productos
-        categories: categorias
-        tags: etiquetas
-        authors: autores
-        custom: personalizadas

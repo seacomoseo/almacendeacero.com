@@ -1,0 +1,20 @@
+menu:
+  img: /u/base/logo-alt.png
+  items:
+  - url: /catalogo/
+    label: Catálogo
+    btn: dark
+callnows: []
+footer:
+  color: cta
+  div: arrow
+  dots:
+  - url: https://g.page/r/CSpucUVs-1bLEAg
+  md: |
+    - ::copyright::      {{< internal-link index >}}
+    - ::balance:: {{< internal-link legal >}}
+    - ::encrypted:: {{< internal-link privacy >}}
+    - ::cookie::    {{< internal-link cookies >}}
+    - ::brand:seacomoseo::     {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/)
+    {.list-inline}
+  space: 2

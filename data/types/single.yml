@@ -1,0 +1,15 @@
+title: Páginas Únicas
+weight: 0
+base: single
+tpl:
+  menu:
+    logo: n
+    sticky: auto
+    size: lg
+    auto: same
+  callnow: auto
+  section:
+  - size: lg
+    scroll: fix
+    box:
+      line: y

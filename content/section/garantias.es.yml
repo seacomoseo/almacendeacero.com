@@ -1,0 +1,28 @@
+name: Garantias
+id: garantias
+title: Garantías
+sub: Puedes confiar tú también
+color: light
+div_x: n
+div_y: n
+div: arrow-side
+menu_btn: hide
+box:
+  line: y
+  cols: 3
+boxes:
+- title: Envíos y devoluciones
+  sub: El transporte de su paquete
+  icon: local_shipping
+  md: |
+    Los paquetes son generalmente enviados en 48 horas después de la recepción de su pago. Se envía por estándar. Se presta especial atención a los paquetes que contienen objetos frágiles. Los paquetes son de gran tamaño y protegidas.
+- title: Pago seguro
+  sub: Garantías en su pago
+  icon: lock
+  md: |
+    En el momento en que usted realice el pago, venta de inoxidables S.L. se hará responsable en todo caso de lo que pueda suceder. En cualquier caso el cliente podrá solicitar el reintegro del monto total si no está satisfecho con el producto enviado.
+- title: Garantía de calidad
+  sub: Satisfacción asegurada
+  icon: verified
+  md: |
+    Un servicio y calidad de productos exquisito. Le garantizamos quedar satisfecho con su pedido, pues contamos con maquinaria de última generación para hacer realidad su sueño de conseguir una pieza única de acero inoxidable.

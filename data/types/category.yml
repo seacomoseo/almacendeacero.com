@@ -1,0 +1,23 @@
+title: Categorías
+base: page
+weight: 3
+tax_of:
+- name: product
+  multi: n
+  crumbs: y
+  schema: articleSection
+- name: category
+  multi: n
+  crumbs: y
+tpl:
+  list:
+    cols: 4
+    cols_vs: 2
+    align: center
+    img: /u/catalogo-accesorio-alimentacion.jpg
+    ratio: 1/1
+    hs: 4
+    md: hide
+    label: Más
+    btn: cta
+    pin: add

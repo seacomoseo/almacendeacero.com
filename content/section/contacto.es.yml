@@ -1,0 +1,42 @@
+name: Contacto
+id: contacto
+title: Contacto
+sub: ¿En qué podemos ayudarte?
+color: white
+size: sm
+div_x: n
+div_y: n
+div: arrow
+menu_btn: main
+form:
+  fill_inputs: n
+when:
+- days: Lunes a Viernes
+  hours: 8:00-13:30 + 15:30-19:30
+- days: Sábados
+  hours: 9:00-13:00
+links:
+- type: phone
+  label: 689 721 929
+- type: whatsapp
+  label: 689 721 929
+- type: mail
+  label: info@almacendeacero.com
+  full: y
+- type: address
+  btn: alt
+  label: Pol Ind Oeste. Avda Principal, Parc 21. San Gines, 30169 Murcia
+  anchor: Almacen de Acero Inoxidable, S.L., Pol Ind Oeste. Avda Principal, Parc 21. San Gines, 30169 Murcia
+inputs:
+- type: text
+  name: Nombre
+  req: y
+- type: mail
+  name: Email
+  req: y
+- type: area
+  name: Mensaje
+  req: y
+geos:
+- type: point
+  geo: '{"type":"Point","coordinates":[-1.193206,37.954136]}'

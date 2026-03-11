@@ -1,0 +1,22 @@
+name: Clientes
+id: clientes
+color: cta
+div_x: y
+div_y: y
+div: arrow-side
+menu_btn: hide
+boxes:
+- title: Clientes
+  sub: Confían en nosotros
+  box:
+    gap: 2
+    gray: y
+    ratio: 2/1
+    cols: 5
+    cols_vs: 2
+  boxes:
+  - img: /u/base/logo-elpozo.svg
+  - img: /u/base/logo-talasur.svg
+  - img: /u/base/logo-cristaleriamoreno.svg
+  - img: /u/base/logo-courcieres.svg
+  - img: /u/base/logo-franchy.svg

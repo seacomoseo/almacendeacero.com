@@ -1,0 +1,10 @@
+- { from: /app/product/* , to: /#productos }
+- { from: /app/subcategorie/* , to: /#productos }
+- { from: /app/about , to: /#nosotros }
+- { from: /app/service , to: /#servicios }
+- { from: /app/legal , to: /legal/ }
+- { from: /app/tos , to: /legal/ }
+- { from: /app/cookies , to: /legal/#politica-de-cookies }
+- { from: /app/contact , to: /#contacto }
+- { from: /app/reservation/* , to: /#contacto }
+- { from: /app/* , to: / }

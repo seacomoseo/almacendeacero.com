@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<style>
+  @keyframes stroke-dash {
+    0% {
+      stroke-dashoffset: var(--stroke-dash, 66em);
+    }
+  }
+  @keyframes fill {
+    0% {
+      fill: transparent;
+      stroke: var(--turn,#fff);
+    }
+  }
+  #icon-stroke path {
+    --stroke-dash: 66em;
+  }
+  #icon-stroke polygon {
+    --stroke-dash: 96em;
+  }
+  #icon-stroke polygon,
+  #icon-stroke path {
+    stroke-dasharray: var(--stroke-dash, 66em);
+    stroke-width: 2;
+    stroke: transparent;
+    animation: stroke-dash 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both, fill .7s cubic-bezier(0.47, 0, 0.745, 0.715) .7s both;
+  }
+</style>
+<g id="icon-stroke">
+<polygon points="230.7 227.7 66.3 366.9 244.9 0 445.7 512 230.7 227.7" fill="#fff"/>
+<path d="M243.2,44.1,119.1,299l114.4-96.9L382.3,398.7ZM218.4,170.2l23.1-50.5,25.7,61.1L239,158.4Z" fill="#000"/>
+</g>
+</svg>

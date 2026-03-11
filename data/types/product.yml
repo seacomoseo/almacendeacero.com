@@ -1,0 +1,18 @@
+title: Productos
+base: page
+weight: 4
+name: product
+icon: box
+rel: y
+tpl:
+  list:
+    cols: 4
+    cols_vs: 2
+    align: center
+    img: /u/fondo.jpg
+    ratio: 1/1
+    hs: 6
+    md: hide
+    label: Más
+    btn: cta
+    pin: add

@@ -1,0 +1,45 @@
+// Header
+
+#body-home #header {
+  @mixin icon-animation($lag) {
+    animation: show-from .5s (.75s + .125s * $lag) both;
+  }
+  .box__title            { @include icon-animation(0); }
+  .box__sub              { @include icon-animation(1); }
+  .links > :nth-child(1) { @include icon-animation(2); }
+  .links > :nth-child(2) { @include icon-animation(3); }
+  .links > :nth-child(3) { @include icon-animation(4); }
+}
+
+
+// Sections
+
+.line:after {
+  background-color: $cta-light;
+}
+#garantias {
+  .boxes {
+    .icon {
+      --alt: #{$cta-light};
+    }
+    .md {
+      color: var(--sub);
+    }
+  }
+}
+.logo__link {
+  background-image: none;
+}
+table {
+  margin-left: auto;
+  white-space: unset;
+}
+.callnow {
+  transform: scale(1.33);
+  transform-origin: left bottom;
+}
+
+.box__title--list,
+.type-category h1 ~ .box .img {
+  display: none;
+}
