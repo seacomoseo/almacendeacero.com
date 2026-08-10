@@ -3,7 +3,7 @@ weight: 0
 base: single
 tpl:
   menu:
-    logo: n
+    logo: false
     sticky: auto
     size: lg
     auto: same
@@ -12,4 +12,4 @@ tpl:
   - size: lg
     scroll: fix
     box:
-      line: y
+      line: true

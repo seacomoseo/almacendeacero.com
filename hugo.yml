@@ -1,7 +1,8 @@
 baseURL: https://almacendeacero.com
-buildFuture: n
+buildFuture: false
 theme: [sansoul]
 params:
+  owner: seacomoseo
   domain: almacendeacero.com
   name: almacendeacero
   netlify_id: 639ba5f2-f328-43c7-bd55-7a4160e58560

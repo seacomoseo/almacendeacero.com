@@ -13,8 +13,8 @@ boxes:
 - if: taxonomy
   get:
   - from: filename
-    to: list.{{ type }}
+    to: list.category
   list:
-    type: all
+    type: product
   box:
     cols: 5

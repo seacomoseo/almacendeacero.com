@@ -1,17 +1,17 @@
 name: Servicios
 id: servicios
 color: light
-div_x: y
-div_y: y
+div_x: true
+div_y: true
 div: arrow-side
 boxes:
 - title: Servicios
   sub: Personalizados
   box:
-    line: y
+    line: true
     color: white
     ratio: 3/2
-    inset: y
+    inset: true
     cols: 4
   boxes:
   - title: Corte Láser

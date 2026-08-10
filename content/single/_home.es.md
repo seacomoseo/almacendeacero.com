@@ -35,34 +35,26 @@ org:
   areas: []
   when:
   - days:
-      DIAS: Lunes a Viernes
-      mon: y
-      tue: y
-      wed: y
-      thu: y
-      fri: y
-      sat: y
-      sun: y
+      mon: true
+      tue: true
+      wed: true
+      thu: true
+      fri: true
     hours:
-    - open: 8:00-13:30 + 15:30-19:30
-      close: 8:00-13:30 + 15:30-19:30
+    - open: 8:00
+      close: 13:30
+    - open: 15:30
+      close: 19:30
   - days:
-      DIAS: Sábados
-      mon: y
-      tue: y
-      wed: y
-      thu: y
-      fri: y
-      sat: y
-      sun: y
+      sat: true
     hours:
-    - open: 9:00-13:00
-      close: 9:00-13:00
+    - open: 9:00
+      close: 13:00
   prices: €€
   services: []
 tpl:
   sections:
-  - file: header
+  - file: _hero
   - file: productos
   - file: servicios
   - file: nosotros
@@ -71,4 +63,3 @@ tpl:
   - file: garantias
   - file: contacto
 ---
-

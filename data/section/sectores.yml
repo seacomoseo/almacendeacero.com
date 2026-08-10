@@ -1,8 +1,8 @@
 name: Sectores
 id: sectores
 color: white
-div_x: n
-div_y: n
+div_x: false
+div_y: false
 div: arrow-side
 menu_btn: hide
 boxes:

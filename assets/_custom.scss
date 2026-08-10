@@ -1,6 +1,8 @@
-// Header
+@use 'css/variables';
 
-#body-home #header {
+// Hero
+
+#body-home #hero {
   @mixin icon-animation($lag) {
     animation: show-from .5s (.75s + .125s * $lag) both;
   }
@@ -15,12 +17,12 @@
 // Sections
 
 .line:after {
-  background-color: $cta-light;
+  background-color: variables.$cta-light;
 }
 #garantias {
   .boxes {
     .icon {
-      --alt: #{$cta-light};
+      --alt: #{variables.$cta-light};
     }
     .md {
       color: var(--sub);

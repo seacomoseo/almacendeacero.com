@@ -1,8 +1,8 @@
 name: Clientes
 id: clientes
 color: cta
-div_x: y
-div_y: y
+div_x: true
+div_y: true
 div: arrow-side
 menu_btn: hide
 boxes:
@@ -10,7 +10,7 @@ boxes:
   sub: Confían en nosotros
   box:
     gap: 2
-    gray: y
+    gray: true
     ratio: 2/1
     cols: 5
     cols_vs: 2

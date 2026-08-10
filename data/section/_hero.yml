@@ -1,12 +1,12 @@
-name: Header
-id: header
+name: Hero
+id: hero
 color: cta-dark
 bi: /u/fondo.jpg
 alpha: 0.7
 scroll: fix
 size: sm
-div_x: y
-div_y: y
+div_x: true
+div_y: true
 div: arrow-side
 boxes:
 - img: /u/base/icon-alt-2.svg
@@ -19,9 +19,9 @@ boxes:
     url: /catalogo/
     label: Catálogo
     icon: web_stories
-    lock: y
+    lock: true
   - type: phone
     label: 689 721 929
   - type: mail
     label: info@almacendeacero.com
-    full: y
+    full: true
