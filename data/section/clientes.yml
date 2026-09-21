@@ -1,9 +1,9 @@
 name: Clientes
 id: clientes
 color: cta
+div: arrow-side
 div_x: true
 div_y: true
-div: arrow-side
 menu_btn: hide
 boxes:
 - title: Clientes

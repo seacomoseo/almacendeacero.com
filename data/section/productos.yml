@@ -1,9 +1,9 @@
 name: Productos
 id: productos
 color: white
+div: arrow-side
 div_x: false
 div_y: false
-div: arrow-side
 boxes:
 - title: Productos
   sub: Amplio catálogo de Acero Inoxidable

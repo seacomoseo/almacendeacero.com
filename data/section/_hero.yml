@@ -4,9 +4,9 @@ bi: /u/fondo.jpg
 alpha: 0.7
 scroll: fix
 size: sm
+div: arrow-side
 div_x: true
 div_y: true
-div: arrow-side
 boxes:
 - img: /u/base/icon-alt-2.svg
   fit: .33

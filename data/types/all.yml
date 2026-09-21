@@ -26,14 +26,12 @@ tpl:
   - file: base-rel
   list:
     cols: 3
-    img: gradient
+    shade: true
     ratio: 16/9
     inset: true
     align: left
     color: white
     md: hide
-    hide_categories: true
-    reading_time: true
     btn: hide
   rel:
     slider: true

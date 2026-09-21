@@ -11,7 +11,6 @@ tax_of:
   crumbs: true
 tpl:
   list:
-    type: product
     cols: 4
     cols_vs: 2
     align: center

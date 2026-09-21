@@ -7,12 +7,10 @@
     - to: title
     - from: id
       to: slug
-      kind: str
     - from: image
       to: img
     - from: parent
       to: category
-      kind: str
     - from: noindex
       to: seo.noindex
     - from: order
@@ -27,12 +25,10 @@
     - to: title
     - from: id
       to: slug
-      kind: str
     - from: image
       to: img
     - from: parent
       to: category
-      kind: str
     - from: noindex
       to: seo.noindex
     - from: order
